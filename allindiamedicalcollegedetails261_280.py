@@ -9241,7 +9241,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =221
+    c_count =261
 
     try:
         for base_url in BASE_URL:
@@ -9307,8 +9307,8 @@ def scrape_mba_colleges():
 import time
 import os
 
-TEMP_FILE = "allindiamedicalcollegedetails221_240.tmp.json"
-FINAL_FILE = "allindiamedicalcollegedetails221_240.json"
+TEMP_FILE = "allindiamedicalcollegedetails261_280.tmp.json"
+FINAL_FILE = "allindiamedicalcollegedetails261_280.json"
 
 UPDATE_INTERVAL = 6 * 60 * 60  # 6 hours
 
